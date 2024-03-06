@@ -4,4 +4,4 @@ ADD smscode /
 COPY conf/*   /conf/
 ENV ZONEINFO  /conf/zoneinfo.zip
 ENV PHONE_DATA_DIR  /conf/
-CMD ["/smscode"]
+CMD ["/"]
